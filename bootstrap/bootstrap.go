@@ -14,9 +14,9 @@ import (
 	"sort"
 )
 
-const genPackage = "github.com/mailru/easyjson/gen"
-const pkgWriter = "github.com/mailru/easyjson/jwriter"
-const pkgLexer = "github.com/mailru/easyjson/jlexer"
+const genPackage = "github.com/mindworker/easyjson/gen"
+const pkgWriter = "github.com/mindworker/easyjson/jwriter"
+const pkgLexer = "github.com/mindworker/easyjson/jlexer"
 
 type Generator struct {
 	PkgPath, PkgName string
