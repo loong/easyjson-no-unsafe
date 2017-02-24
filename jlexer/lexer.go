@@ -9,12 +9,10 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"reflect"
 	"strconv"
 	"unicode"
 	"unicode/utf16"
 	"unicode/utf8"
-	"unsafe"
 )
 
 // tokenKind determines type of a token.
@@ -211,9 +209,11 @@ func (r *Lexer) fetchFalse() {
 // chunk may be either blocked from being freed by GC because of a single string or the buffer.Data
 // may be garbage-collected even when the string exists.
 func bytesToStr(data []byte) string {
-	h := (*reflect.SliceHeader)(unsafe.Pointer(&data))
-	shdr := reflect.StringHeader{h.Data, h.Len}
-	return *(*string)(unsafe.Pointer(&shdr))
+	//h := (*reflect.SliceHeader)(unsafe.Pointer(&data))
+	//shdr := reflect.StringHeader{h.Data, h.Len}
+	//return *(*string)(unsafe.Pointer(&shdr))
+
+	return string(data)
 }
 
 // fetchNumber scans a number literal token.
