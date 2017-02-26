@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/mindworker/easyjson/bootstrap"
+	"github.com/mindworker/easyjson-no-unsafe/bootstrap"
 	// Reference the gen package to be friendly to vendoring tools,
 	// as it is an indirect dependency.
 	// (The temporary bootstrapping code uses it.)
-	_ "github.com/mindworker/easyjson/gen"
-	"github.com/mindworker/easyjson/parser"
+	_ "github.com/mindworker/easyjson-no-unsafe/gen"
+	"github.com/mindworker/easyjson-no-unsafe/parser"
 )
 
 var buildTags = flag.String("build_tags", "", "build tags to add to generated file")

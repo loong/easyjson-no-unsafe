@@ -7,7 +7,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/mindworker/easyjson"
+	"github.com/mindworker/easyjson-no-unsafe"
 )
 
 // Target this byte size for initial slice allocation to reduce garbage collection.

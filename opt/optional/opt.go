@@ -5,8 +5,8 @@ package optional
 import (
 	"fmt"
 
-	"github.com/mindworker/easyjson/jlexer"
-	"github.com/mindworker/easyjson/jwriter"
+	"github.com/mindworker/easyjson-no-unsafe/jlexer"
+	"github.com/mindworker/easyjson-no-unsafe/jwriter"
 )
 
 // template type Optional(A)

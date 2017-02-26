@@ -3,7 +3,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/mindworker/easyjson/jlexer"
+	"github.com/mindworker/easyjson-no-unsafe/jlexer"
 )
 
 func TestMultipleErrorsInt(t *testing.T) {

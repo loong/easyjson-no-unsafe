@@ -5,8 +5,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/mindworker/easyjson"
-	"github.com/mindworker/easyjson/opt"
+	"github.com/mindworker/easyjson-no-unsafe"
+	"github.com/mindworker/easyjson-no-unsafe/opt"
 )
 
 type PrimitiveTypes struct {

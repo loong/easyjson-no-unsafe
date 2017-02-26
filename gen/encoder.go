@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mindworker/easyjson"
+	"github.com/mindworker/easyjson-no-unsafe"
 )
 
 func (g *Generator) getEncoderName(t reflect.Type) string {

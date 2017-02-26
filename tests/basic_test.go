@@ -6,8 +6,8 @@ import (
 
 	"encoding/json"
 
-	"github.com/mindworker/easyjson"
-	"github.com/mindworker/easyjson/jwriter"
+	"github.com/mindworker/easyjson-no-unsafe"
+	"github.com/mindworker/easyjson-no-unsafe/jwriter"
 )
 
 type testType interface {

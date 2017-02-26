@@ -1,8 +1,8 @@
 package easyjson
 
 import (
-	"github.com/mindworker/easyjson/jlexer"
-	"github.com/mindworker/easyjson/jwriter"
+	"github.com/mindworker/easyjson-no-unsafe/jlexer"
+	"github.com/mindworker/easyjson-no-unsafe/jwriter"
 )
 
 // RawMessage is a raw piece of JSON (number, string, bool, object, array or

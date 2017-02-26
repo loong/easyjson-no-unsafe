@@ -13,9 +13,9 @@ import (
 	"unicode"
 )
 
-const pkgWriter = "github.com/mindworker/easyjson/jwriter"
-const pkgLexer = "github.com/mindworker/easyjson/jlexer"
-const pkgEasyJSON = "github.com/mindworker/easyjson"
+const pkgWriter = "github.com/mindworker/easyjson-no-unsafe/jwriter"
+const pkgLexer = "github.com/mindworker/easyjson-no-unsafe/jlexer"
+const pkgEasyJSON = "github.com/mindworker/easyjson-no-unsafe"
 
 // FieldNamer defines a policy for generating names for struct fields.
 type FieldNamer interface {

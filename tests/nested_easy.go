@@ -1,8 +1,8 @@
 package tests
 
 import (
-	"github.com/mindworker/easyjson"
-	"github.com/mindworker/easyjson/jwriter"
+	"github.com/mindworker/easyjson-no-unsafe"
+	"github.com/mindworker/easyjson-no-unsafe/jwriter"
 )
 
 //easyjson:json

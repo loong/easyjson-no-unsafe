@@ -5,8 +5,8 @@ package benchmark
 import (
 	"testing"
 
-	"github.com/mindworker/easyjson"
-	"github.com/mindworker/easyjson/jwriter"
+	"github.com/mindworker/easyjson-no-unsafe"
+	"github.com/mindworker/easyjson-no-unsafe/jwriter"
 )
 
 func BenchmarkEJ_Unmarshal_M(b *testing.B) {
